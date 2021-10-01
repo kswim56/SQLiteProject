@@ -12,7 +12,6 @@ public class Main {
 		Connection con = null;
 		
 		try {
-			// SQLite JDBC인지 체크한다
 			Class.forName("org.sqlite.JDBC");
 			
 			// SQLite 데이터베이스 파일에 연결
